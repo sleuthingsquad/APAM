@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>(APAM) March 2024</title>
+        <style>
+        body{
+            background-color: rgb(106, 156, 168);
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            font-family: calibri;
+
+        }
+
+	#name {
+	text-align: center;
+	}
+
+	#loglink {
+	color: rgb(0, 0, 128);
+	font-size: 14px;
+	text-decoration: underline;
+	position: absolute;
+	right: 202px;
+	top: 20px;
+}
+
+	#aboutus {
+	color: rgb(0, 0, 128);
+	font-size: 14px;
+	text-decoration: underline;
+	position: absolute;
+	right: 130px;
+	top: 20px;
+}
+
+	#tandp {
+	color: rgb(0, 0, 128);
+	font-size: 14px;
+	text-decoration: underline;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+	#doDesc {
+	text-decoration: underline;
+}
+
+	#doContent {
+	width: 350px;
+}
+ 
+	#servDesc {
+	text-decoration: underline;
+	position: absolute;
+	float: right;
+	top: 65px;
+	right: 25px;
+}     
+
+	#servContent {
+	float: left;
+	width: 350px;
+	position: absolute;
+	top: 110px;
+	right: 25px;
+}  
+
+	#goals {
+	position: absolute;
+	bottom: 230px;
+	left: 525px;
+	text-align: center;
+	background-color: rgb(255, 240, 181);
+        border-radius: 100px;
+    	width: 220px;
+    	height: 220px;
+}
+
+	.gol {
+	position: relative;
+	top: 15px;
+}
+
+	#comment {
+	position: relative;
+	text-align: center;
+	right: 200px;
+}
+
+	.reviews {
+	display: inline-block;
+	text-align: center;
+	margin-right: 25px;
+	margin-left: 20px;
+	background-color: rgb(137, 207, 240);
+        border-radius: 95px;
+    	width: 125px;
+    	height: 125px;
+}
+
+	#why {
+	margin-left: 55px;
+}
+
+	#articles {
+	text-decoration: underline;
+	
+}
+
+	.post {
+	background-color: rgb(193, 225, 193);
+	padding-left: 7px;
+	margin-left: 30px;
+	margin-right: 35px;
+	display: inline-block;
+	border-radius: 15px;
+	width: 330px;
+	height: 130px;
+}
+
+	#more {
+	text-align: right;
+	margin-right: 30px;
+}
+
+	#plans {
+	text-align: center;
+}
+
+	#click {
+	float: left;
+	margin-left: 150px;
+	margin-top: 90px;
+	width: 90px;
+}
+
+	#offers {
+	float: right;
+}
+	.offered {
+	color: black;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(245, 163, 180);
+	margin-left: 30px;
+	margin-right: 35px;
+	display: inline-block;
+	border-radius: 10px;
+	width: 230px;
+	height: 230px;
+
+}
+
+	h1 {
+	text-align: center;
+}
+
+        </style>
+    </head>
+    <body>
+<h2 id = "name"> Lorem Repellat </h2> 
+<span id = "aboutus"> About Us</span>
+<span id = "loglink"> Login In / Signup </span>
+<span id = "tandp"> Terms and Policies </span>
+
+<span id = "desc">
+<h3 id = "doDesc"> What we do </h3>
+<p id = "doContent"> Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? [D]Quis autem vel eum i[r]ure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur. </p>
+
+<h3 id = "servDesc"> Services offered </h3>
+<p id = "servContent"> At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem reru[d]um facilis est e[r]t expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellend[a]us. </p>
+</span>
+
+<div id = "goals"> <h3 class = "gol"> Our goals and Values</h3>
+<p class = "gol"> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Consecteur adipiscing elit. </p>
+</div>
+
+<h3 id = "comment"> Why us </h3>
+
+<span id = "why">
+<span class = "reviews"> 
+<h4> O. Adipi </h4>
+<p> Sint occaecat cupidatat. </p>
+</span> 
+
+<span class = "reviews"> 
+<h4> Irure Dolor </h4>
+<p> Ipsam un voluptatem! </p>
+</span> 
+
+<span class = "reviews"> 
+<h4> Iste Natus </h4>
+<p> Consequatur aut perferendis. </p>
+</span> 
+
+<span id = "why">
+<span class = "reviews"> 
+<h4> Qui Officia  </h4>
+<p> Temporibs atem quibusdam. </p>
+</span> 
+
+<span class = "reviews"> 
+<h4> V. Dicta </h4>
+<p> Soluta nobis est eligendi </p>
+</span> 
+
+<span class = "reviews"> 
+<h4> Laboris Nisi </h4>
+<p> Omnis voluptas, omnis dolor. </p>
+</span> 
+
+</span>
+
+<h3 id = "articles"> Articles </h3>
+<h3> Latest Posts: </h3>
+<span class = "post">
+ <h4> Consectetur adipiscing elit: </h4>
+ <p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam! </p>
+</span>
+<span class = "post"> 
+<h4> Consectetur adipiscing elit: </h4>
+ <p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam! </p>
+</span>
+<span class = "post"> 
+<h4> Consectetur adipiscing elit: </h4>
+ <p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam! </p></span>
+
+
+<h4 id = "more"> More posts —> </h4>
+
+<h2 id = "plans"> Plans Offered </h2>
+<h4 id = "click"> Click to learn more! </h4>
+<span id = "offers">
+
+<span class = "offered">
+<h4> 1 Year Plan: </h4>
+<p> Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit. Voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident. </p>
+</span>
+
+<span class = "offered"> 
+<h4> 2 To 10 Year Plan: </h4>
+<p> Sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae. Umque nihil impedit, quo minus id, quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor. </p>
+</span>
+
+<span class = "offered"> 
+<h4> 10+ Year Plan: </h4>
+<p>Neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.  </p>
+</span>
+
+
+</span>
+
+<script>
+var logIn = document.getElementById("loglink");
+var about = document.getElementById("aboutus");
+var terms = document.getElementById("tandp");
+
+var logClicked = function() {
+	document.body.style.border = "7px solid rgb(255, 240, 181)";
+	document.body.textContent = "";
+
+	var logHead = document.createElement("h1");
+	logHead.textContent = "Login and Signup";
+	document.body.appendChild(logHead);
+
+	var SignSub = document.createElement("h3");
+	SignSub.textContent = "Sign up";
+	document.body.appendChild(SignSub);
+
+	var logSub = document.createElement("h3");
+	logSub.textContent = "Login";
+	document.body.appendChild(logSub);
+	logSub.style.position = "relative";
+	logSub.style.left = "550px";
+	logSub.style.bottom = "40px";
+
+	var emailIn = document.createElement("label");
+	emailIn.textContent = "Email-id:  ";
+	document.body.appendChild(emailIn);
+
+	var email_Id = document.createElement("input");
+	document.body.appendChild(email_Id)
+
+	document.body.appendChild(document.createElement("br"));
+	document.body.appendChild(document.createElement("br"));
+
+	var otp = document.createElement("button");
+	otp.textContent = "Send OTP";
+	document.body.appendChild(otp);
+
+	var email_input = document.createElement("label");
+	email_input.textContent = "Email-id:  ";
+	document.body.appendChild(email_input);
+	email_input.style.position = "relative";
+	email_input.style.left = "472px";
+	email_input.style.bottom = "40px";
+
+	var email = document.createElement("input");
+	document.body.appendChild(email)
+	email.style.position = "relative";
+	email.style.left = "472px";
+	email.style.bottom = "40px";
+
+	document.body.appendChild(document.createElement("br"));
+	document.body.appendChild(document.createElement("br"));
+
+	var pass = document.createElement("label");
+	pass.textContent = "Password:  ";
+	document.body.appendChild(pass);
+	
+	pass.style.position = "relative";
+	pass.style.left = "550px";
+	pass.style.bottom = "40px";
+
+	var password = document.createElement("input");
+	document.body.appendChild(password)
+	password.style.position = "relative";
+	password.style.left = "550px";
+	password.style.bottom = "40px";
+
+	var forgot = document.createElement("p");
+	forgot.textContent = "Forgot Password";
+	document.body.appendChild(forgot);
+	forgot.style.color = "rgb(233, 250, 0)";
+	forgot.style.position = "relative";
+	forgot.style.left = "575px";
+	forgot.style.bottom = "40px";
+
+	var sent = function() {
+		var label = document.createElement("label");
+		label.textContent = "OTP: ";
+		document.body.appendChild(label)
+
+		var input = document.createElement("input");
+		document.body.appendChild(input)
+
+		label.style.marginTop = "-140px"
+		input.style.marginTop = "-140px"
+	}
+
+	otp.addEventListener("click", sent)
+
+	var forgot_pas = function() {
+		email = email.value
+		if (email === '') {
+			var enter_email = document.createElement("p")
+			enter_email.textContent = "Please enter your email-id so we can send you the new password!";
+			document.body.appendChild(enter_email)
+			enter_email.style.position = "relative";
+			enter_email.style.left = "575px";
+			enter_email.style.bottom = "40px";
+			enter_email.style.color = "rgb(233, 250, 0)";
+		}
+		else if (email === "undefined") {
+			var enter_email = document.createElement("p")
+			enter_email.textContent = "Please enter your email-id so we can send you the new password!";
+			document.body.appendChild(enter_email)
+			enter_email.style.position = "relative";
+			enter_email.style.left = "575px";
+			enter_email.style.bottom = "40px";
+			enter_email.style.color = "rgb(233, 250, 0)";
+		}
+		else {
+			var we_sent = document.createElement("p")
+			we_sent.textContent = "We sent you the new password. Please enter it in the password input box."
+			document.body.appendChild(we_sent)
+			we_sent.style.position = "relative";
+			we_sent.style.left = "575px";
+			we_sent.style.bottom = "40px";
+			we_sent.style.color = "rgb(233, 250, 0)";
+		}
+}
+	forgot.addEventListener("click", forgot_pas)
+}
+
+logIn.addEventListener("click", logClicked);
+
+var aboutClicked = function() {
+	document.body.style.border = "7px solid rgb(255, 240, 181)";
+
+	document.body.textContent = "";
+	var aboutHead = document.createElement("h1");
+	aboutHead.textContent = "About Us";
+	document.body.appendChild(aboutHead);
+
+	var weDo = document.createElement("h2");	
+	weDo.textContent = "What We Do:";
+	document.body.appendChild(weDo);
+
+	var text1 = document.createElement("p");
+	text1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+	document.body.appendChild(text1)
+
+	var text2 = document.createElement("p");
+	text2.textContent = "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	document.body.appendChild(text2)
+
+	var contacts = document.createElement("h2");
+	contacts.textContent = "Contact Details:";
+	document.body.appendChild(contacts);
+
+	var text3 = document.createElement("p");
+	text3.textContent = "E-mail id: enim_quasi@ipsam";
+	document.body.appendChild(text3)
+
+	var text4 = document.createElement("p");
+	text4.textContent = "Phone Number: 0123456789";
+	document.body.appendChild(text4)
+
+	var text5 = document.createElement("p");
+	text5.textContent = "Address: Qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam.";
+	document.body.appendChild(text5)
+
+	document.body.style.padding = "25px";
+}
+about.addEventListener("click", aboutClicked)
+
+
+var termsClicked = function() {
+	document.body.style.border = "7px solid rgb(255, 240, 181)";
+
+	document.body.textContent = "";
+	var termsHead = document.createElement("h1");
+	termsHead.textContent = "Terms and Policies";
+	document.body.appendChild(termsHead);
+
+	var safety = document.createElement("h2");
+	safety.textContent = "Safety:";
+	document.body.appendChild(safety);
+
+	var text7 = document.createElement("p");
+	text7.textContent = "Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? [D]Quis autem vel eum i[r]ure reprehenderit. Qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.";
+	document.body.appendChild(text7);
+
+
+	var rules = document.createElement("h2");
+	rules.textContent = "Rules:";
+	document.body.appendChild(rules);
+
+	var options = ["Itaque earum rerum hic tenetur.",
+"A sapiente delectus, ut aut reiciendis.",
+"Voluptatibus maiores alias consequatur aut perferendis.",
+"Doloribus asperiores repellat.",
+"emporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus."];	
+
+	var ruleList = document.createElement("ol");
+	var listNum = 0
+	
+	for (var i = 0; i < options.length; i++) {
+        var listItem = document.createElement("li");
+        listItem.textContent = options[i];
+        ruleList.appendChild(listItem);
+      }
+	
+	document.body.appendChild(ruleList);
+
+	document.body.style.padding = "25px";
+}
+
+terms.addEventListener("click", termsClicked);
+</script>
+</body>
+</html>
