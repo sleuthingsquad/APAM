@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>(APAM) May 2024</title>
+  <style>
+	body {
+	margin: 14px;
+	padding: 14px;
+	background-color: rgb(245, 245, 166);
+	}
+
+	#expenses {
+	color: rgb(219, 50, 50);
+	}
+
+	#savings {
+	color: rgb(118, 166, 0);
+	}
+  </style>
+</head>
+
+<body>
+<h3 id = "savings"> Income and Savings: </h3>
+  <label>Annual post-tax income:</label> <input id = "income">
+  <br>
+  <br>
+  <label> Percentage of income set aside for retirement:</label> <input id = "percent">
+  <br>
+  <p>Income left: <span id = "Leftspan"> </span> </p>
+  <br>
+<h3 id = "expenses"> Expenses: </h3>
+
+  <label>Annual expenditure on clothes:</label> <input id="exp2">
+  <br>
+  <br>
+  <label>Annual expenditure on commute:</label> <input id="exp3">
+  <br>
+  <br>
+  <label>Annual expenditure on health care:</label> <input id="exp4">
+  <br>
+  <br>
+  <label>Annual expenditure on other things:</label> <input id="exp5">
+  <br>
+  <br>
+  <label>Annual expenditure on credit card (discluding previous details):</label> <input id="exp6">
+  <br>
+  <br>
+  <label>Annual payment for loans</label> <input id="exp7">
+  <br>
+  <br>
+  <label> Annual rent / mortgage payment</label> <input id="exp8">
+  <br>
+  <br>
+  <label> Annual energy bill (includes electricity, gas, etc.): </label> <input id="exp9">
+  <br>
+  <br>
+  <label> Annual expense on water: </label> <input id="exp10">
+  <br>
+  <br>
+  <label> Money set aside for other expenses:</label> <input id="exp11">
+  <br>
+<br>
+  <p>Income left: <span id="amount_left"> </span> </p>
+
+  <script>
+
+var incomeIn = document.getElementById("income");
+var percentIn = document.getElementById("percent");
+var leftSpan = document.getElementById("Leftspan");
+
+var inputGiven = function() {
+
+	var income = parseFloat(incomeIn.value);
+	var percent = parseFloat(percentIn.value);	
+
+	income_left = (100 - percent) * (income/100);
+
+	leftSpan.textContent = income_left;	
+	};
+
+incomeIn.addEventListener("input", inputGiven);
+percentIn.addEventListener("input", inputGiven);
+
+exp2In = document.getElementById("exp2");
+exp3In = document.getElementById("exp3");
+exp4In = document.getElementById("exp4");
+exp5In = document.getElementById("exp5");
+exp6In = document.getElementById("exp6");
+exp7In = document.getElementById("exp7");
+exp8In = document.getElementById("exp8");
+exp9In = document.getElementById("exp9");
+exp10In = document.getElementById("exp10");
+exp11In = document.getElementById("exp11");
+
+amountLeft = document.getElementById("amount_left");
+
+var expGiven = function() {
+
+var exp2 = parseFloat(exp2In.value);
+var exp3 = parseFloat(exp3In.value);
+var exp4 = parseFloat(exp4In.value);
+var exp5 = parseFloat(exp5In.value);
+var exp6 = parseFloat(exp6In.value);
+var exp7 = parseFloat(exp7In.value);
+var exp8 = parseFloat(exp8In.value);
+var exp9 = parseFloat(exp9In.value);
+var exp10 = parseFloat(exp10In.value);
+var exp11 = parseFloat(exp11In.value);
+
+amountLeft.textContent = income_left - exp2 - exp3
+- exp4 - exp5 - exp6 - exp7 - exp8 - exp9 - exp10 - exp11;
+}
+exp2In.addEventListener("input", expGiven);
+exp3In.addEventListener("input", expGiven);
+exp4In.addEventListener("input", expGiven);
+exp5In.addEventListener("input", expGiven);
+exp6In.addEventListener("input", expGiven);
+exp7In.addEventListener("input", expGiven);
+exp8In.addEventListener("input", expGiven);
+exp9In.addEventListener("input", expGiven);
+exp10In.addEventListener("input", expGiven);
+exp11In.addEventListener("input", expGiven);
+
+</script>
+
+</body>
+
+</html>
