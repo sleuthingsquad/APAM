@@ -1,0 +1,100 @@
+from turtle import Turtle, Screen
+import turtle, random
+screen = Screen()
+
+screen.setup(400, 300)
+racing = False
+guess = screen.textinput("NIM", "Who will win the race? Enter the color:")
+
+turtles = ["blue", "yellow", "red", "purple", "orange"]
+
+all_turtles = []
+
+for turtle_num in range(0, 5):
+  turtle = Turtle()
+  turtle.penup()
+  turtle.color(turtles[turtle_num])
+  turtle.shape("turtle")
+  turtle.speed("slowest")
+  turtle.setx(-150)
+  turtle.sety(-60 + (30 * turtle_num))
+  all_turtles.append(turtle)
+
+# blue = Turtle()
+# blue.color("blue")
+# blue.shape("turtle")
+# blue.penup()
+# blue.speed("slowest")
+# blue.setx(-150)
+
+# yellow = Turtle()
+# yellow.color("yellow")
+# yellow.shape("turtle")
+# yellow.speed("slowest")
+# yellow.penup()
+# yellow.setx(-150)
+# yellow.sety(90)
+
+# red = Turtle()
+# red.color("red")
+# red.shape("turtle")
+# red.speed("slowest")
+# red.penup()
+# red.setx(-150)
+# red.sety(30)
+
+# purple = Turtle()
+# purple.color("purple")
+# purple.shape("turtle")
+# purple.speed("slowest")
+# purple.penup()
+# purple.setx(-150)
+# purple.sety(60)
+
+# orange = Turtle()
+# orange.shape("turtle")
+# orange.color("orange")
+# orange.speed("slowest")
+# orange.penup()
+# orange.setx(-150)
+# orange.sety(-30)
+
+if guess:
+  racing = True
+
+while racing:
+  for i in range(0, 5):
+    distance = random.randint(1, 10)
+    all_turtles[i].forward(distance)
+    if all_turtles[i].xcor() > 140:
+      winner = all_turtles[i].pencolor()
+      # print(winner)
+      racing = False
+
+  # blue.forward(random.randint(1, 10))
+  # if blue.xcor() > 140:
+  #   winner = "blue"
+  #   racing = False
+  # red.forward(random.randint(1, 10))
+  # if red.xcor() > 140:
+  #   winner = "red"
+  #   racing = False
+  # yellow.forward(random.randint(1, 10))
+  # if yellow.xcor() > 140:
+  #   winner = "yellow"
+  #   racing = False
+  # purple.forward(random.randint(1, 10))
+  # if purple.xcor() > 140:
+  #   winner = "purple"
+  #   racing = False
+  # orange.forward(random.randint(1, 10))
+  # if orange.xcor() > 140:
+  #   winner = "orange"
+  #   racing = False
+
+if winner == guess.lower():
+  print("You were right!")
+else:
+  print("Sorry! The winner was", winner + ".")
+
+screen.exitonclick()
