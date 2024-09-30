@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Event invite" Can Work On AND understand how/why the float thing happened as it did</title>
+        <style>
+        body{
+            background-color: rgb(255, 240, 181);
+            border: 5px double rgb(107, 137, 255);
+            padding: 10px;
+            font-family: cursive;
+
+        }
+        #TBD {
+            font-style:italic;
+            font-family: sans-serif;
+            font-size: 32px;
+        }
+        #you {
+            font-size:47px;
+        }
+        #free {
+            text-decoration: underline;
+        }   
+        
+         #details {
+            width: 30%;
+            float:right;
+            background-color:rgb(255, 219, 36);
+            padding: 6px;
+        }
+        
+        #about {
+        width:64%;
+        float: left; 
+        background-color:rgb(255, 234, 0);
+        padding: 5px;
+        }
+        #to-note{
+            width: 44%;
+            float: left;
+            clear: both;
+            background-color:rgb(247, 238, 108);
+            padding: 5px;
+            margin: 5px;
+        }
+        #to-bring {
+            width: 46%;
+            float: right;
+            background-color:rgb(255, 208, 99);
+            padding: 5px;
+            margin: 5px;
+        }
+        #sure {
+            width: 50%;
+            float: left;
+            clear: both;
+            font-family: serif;
+        }
+        #hurry {
+            width:50%;
+            float: right;
+            font-family: serif;
+           
+                   }
+        #not-sure {
+            width: 40%;
+            float:left;
+            font-family: serif;
+        }
+        #dont-want{
+            width: 50%;
+            float: right;
+            font-family: serif;
+            
+        }
+        #footer {
+            background-color:rgb(207, 207, 207);
+            padding: 5px;
+            clear: both;
+        }
+        
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="you-are-invited"><span id="you">You</span> are invited!</h1>
+        <h2>To a <span id="free">free</span> trial workshop hosted by <span id="TBD">TBD</span>!</h2>
+        
+        <div id="about">
+        <p>About the workshop:</p>
+        <ul>
+            <li> It will last for 3(three) days</li>
+            <li> It will give you a basic understanding of coding with HTML, CSS and JavaScript </li>
+            <li> The workshop is based on our other paid courses, so it will give you an idea of what they are like</li>
+            <li> The first day will teach you the basics of HTML and CSS </li>
+            <li> The second day will teach you the basics of JavaScript</li>
+            <li> On the third day, everyone will work  on projects to represent their learning and understanding. </li>
+            <li> The project can either be done as a group or individually </li>
+        </ul>
+        </div>
+        <div id="details">
+        <p> Timings:</p>
+        10AM to 4:30(1630 hours) PM
+        <p> Dates:</p>
+        <p>16th, 17th and 18th June 2023</p>
+        <p> Venue:</p>
+        <p> The TBD workshop center, Soho</p>
+        </div>
+
+        <div id="to-note">
+        <p> Things to Note:
+        <ol>
+        <li> A healthy lunch can be bought for very reasonable prices at the workshop center or brought from home. </li>
+            <li> Lunch will be from 12:45 to 1:20
+            <li> A ten-minute snack break will commence at 3:50</li>
+            <li> The wifi-password will be provided upon reaching the venue so you may complete all the activities and the project </li> 
+        </ol>
+        </div>
+        <div id="to-bring">
+        <p> What to bring</p>
+        <ol>
+                    <li> Food/money based on the previously mentioned guidelines </li>
+            <li> Everyone participating in the course is required to bring their own laptop, ipad or whichever electronic device they plan to use for the online activities and project </li>
+            <li> You are also required to bring your own charger and any other materials for your computer, like a mouse or attachable keyboard </li>
+        </ol>
+        </div>
+        <p id="sure"> If you are 100% sure about attending, click <a href= "https://mail.google.com/mail/u/0/">here</a> to notify us</p> 
+        <p id="hurry"> Hurry! There are a limited number of seats available!</p>
+        <p id="not-sure"> If you're not sure, fill this <a href="https://docs.google.com/forms/u/0/">form</a> so we can give you more details!</p>
+        <p id="dont-want"> Don't want to come? Tell us why <a href="https://docs.google.com/document/u/0/"> here</a> so we can improve everyone's experience!</p>
+        <p id="footer"> To visit our webgape, click <a href="https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pp/project-event-invite"> here.</a></p>
+</body>
+</html>
